@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://strategyeducation.co.uk/wp-content/uploads/2021/05/Do-Exams-Increase-Anxiety-and-Affect-Student-Performance.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 100px;
+}
+
+.background-image {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, p {
+    text-align: center;
+}
+.prediction-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prediction-button:hover {
+    background-color: #0056b3;
+}

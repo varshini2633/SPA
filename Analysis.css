@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding: 0px;
+    background-color: gainsboro;
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    
+}
+
+.image-container img {
+    width: 50%; 
+    height: auto; /* Maintain aspect ratio */
+}
